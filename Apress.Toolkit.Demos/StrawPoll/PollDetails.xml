@@ -1,0 +1,10 @@
+<Polls xmlns="http://Apress.com/PollDetails.xsd">
+  <Poll Question="Which is your favorite .Net language?">
+    <PollChoice Value="1" Text="C#" Votes="37" />
+    <PollChoice Value="2" Text="VB.NET" Votes="19" />
+    <PollChoice Value="3" Text="Managed C++" Votes="3" />
+    <PollChoice Value="4" Text="JScript.NET" Votes="3" />
+    <PollChoice Value="5" Text="J#.NET" Votes="1" />
+    <PollChoice Value="6" Text="Other" Votes="2" />
+  </Poll>
+</Polls>

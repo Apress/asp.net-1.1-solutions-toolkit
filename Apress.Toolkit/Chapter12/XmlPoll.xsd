@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Polls" targetNamespace="http://wrox.com/XmlPoll.xsd" 
+           xmlns:mstns="http://wrox.com/XmlPoll.xsd" 
+           xmlns="http://wrox.com/XmlPoll.xsd" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           elementFormDefault="qualified">
+  <xs:element name="Polls" >
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Poll">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PollChoice" 
+                          minOccurs="1" 
+                          maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Value"  
+                                type="xs:integer" />
+                  <xs:attribute name="Text" 
+                                type="xs:limString" />
+                  <xs:attribute name="Votes"  
+                                type="xs:nonNegativeInteger" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Question"  
+                          type="xs:limString" />
+          </xs:complexType>
+          <xs:unique name="uniqueValues">
+            <xs:selector xpath="." />
+            <xs:field xpath="PollChoice/@Value" />
+          </xs:unique>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="limString">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="300" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

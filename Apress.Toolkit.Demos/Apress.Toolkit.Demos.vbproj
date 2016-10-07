@@ -1,0 +1,474 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{908F1ED1-043D-46B6-AB25-C378EB5FDBEB}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Apress.Toolkit.Demos"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                RootNamespace = ""
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Apress.Toolkit"
+                    Project = "{1AAE59DF-7958-4025-B93D-C1FB4A7B80F9}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Chart\TestChart.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Chart\TestChart.aspx.vb"
+                    DependentUpon = "TestChart.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chart\TestChart.aspx.resx"
+                    DependentUpon = "TestChart.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chart\TestChart2.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataBindBullets\DataBindBullets.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataBindBullets\DataBindBullets.aspx.vb"
+                    DependentUpon = "DataBindBullets.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataBindBullets\DataBindBullets.aspx.resx"
+                    DependentUpon = "DataBindBullets.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DataBindBullets\ovalbullet.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataNavigator\DataNavigatorTest.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataNavigator\DataNavigatorTest.aspx.vb"
+                    DependentUpon = "DataNavigatorTest.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataNavigator\DataNavigatorTest.aspx.resx"
+                    DependentUpon = "DataNavigatorTest.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FileUploader\FileUploader.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FileUploader\FileUploader.ascx.vb"
+                    DependentUpon = "FileUploader.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FileUploader\FileUploader.ascx.resx"
+                    DependentUpon = "FileUploader.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FileUploader\Upload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FileUploader\Upload.aspx.vb"
+                    DependentUpon = "Upload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FileUploader\Upload.aspx.resx"
+                    DependentUpon = "Upload.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalizablePage\SR.es.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalizablePage\SR.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalizablePage\SR.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalizablePage\TestGlobalizablePage.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "GlobalizablePage\TestGlobalizablePage.aspx.vb"
+                    DependentUpon = "TestGlobalizablePage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalizablePage\TestGlobalizablePage.aspx.resx"
+                    DependentUpon = "TestGlobalizablePage.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ImageMagnifier\ImageMagnify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ImageMagnifier\ImageMagnify.aspx.vb"
+                    DependentUpon = "ImageMagnify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ImageMagnifier\ImageMagnify.aspx.resx"
+                    DependentUpon = "ImageMagnify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ImageMagnifier\photo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ImageMap\cati-kitty.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ImageMap\ImageMap.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ImageMap\ImageMap.aspx.vb"
+                    DependentUpon = "ImageMap.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ImageMap\ImageMap.aspx.resx"
+                    DependentUpon = "ImageMap.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reviewing\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\review.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\review.aspx.vb"
+                    DependentUpon = "review.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reviewing\review.aspx.resx"
+                    DependentUpon = "review.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reviewing\ReviewerForm.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\ReviewerForm.ascx.vb"
+                    DependentUpon = "ReviewerForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reviewing\ReviewerForm.ascx.resx"
+                    DependentUpon = "ReviewerForm.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reviewing\images\10star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\13star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\15star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\17star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\20star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\23star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\25star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\27star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\30star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\33star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\35star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\37star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\40star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\43star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\45star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\47star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\50star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\submit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reviewing\images\triangle.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RSS\NewsBrowser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RSS\NewsBrowser.aspx.vb"
+                    DependentUpon = "NewsBrowser.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RSS\NewsBrowser.aspx.resx"
+                    DependentUpon = "NewsBrowser.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "RSS\ViewFeed.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RSS\ViewFeed.aspx.vb"
+                    DependentUpon = "ViewFeed.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RSS\ViewFeed.aspx.resx"
+                    DependentUpon = "ViewFeed.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SearchEngine\index.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SearchEngine\index.aspx.vb"
+                    DependentUpon = "index.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SearchEngine\index.aspx.resx"
+                    DependentUpon = "index.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SearchEngine\search.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SearchEngine\search.aspx.vb"
+                    DependentUpon = "search.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SearchEngine\search.aspx.resx"
+                    DependentUpon = "search.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Spinner\SpinnerTest.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Spinner\SpinnerTest.aspx.vb"
+                    DependentUpon = "SpinnerTest.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Spinner\SpinnerTest.aspx.resx"
+                    DependentUpon = "SpinnerTest.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "StrawPoll\bar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "StrawPoll\Poll.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "StrawPoll\PollDetails.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "StrawPoll\PollResult.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Validation\Sample.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Validation\Sample.aspx.vb"
+                    DependentUpon = "Sample.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Validation\Sample.aspx.resx"
+                    DependentUpon = "Sample.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

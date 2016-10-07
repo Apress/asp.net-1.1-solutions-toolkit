@@ -1,0 +1,417 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{1AAE59DF-7958-4025-B93D-C1FB4A7B80F9}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Apress.Toolkit"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                RootNamespace = ""
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "false"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Design.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter02\Apress.Toolkit.Spinner.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter02\Spinner.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter02\SpinnerLib.js"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter03\Apress.Toolkit.DataBindBulletList.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter03\DataBindBulletList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter04\Apress.Toolkit.DataNavigator.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter04\DataNavigator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter04\DataNavigatorButtonEventsArg.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter05\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Chapter06\GlobalizablePage.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\AlphaNumericValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\AlphaValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\Apress.Toolkit.Validation.ValidatorControl.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter07\BaseValidationProvider.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\CurrencyValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\IntegerValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\IValidationProvider.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\NegativeNumericValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\PositiveNumericValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\UserIDValidator.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\ValidatorControl.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\ValidatorConverter.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter07\ValidatorLib.js"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter08\Apress.Toolkit.ImageMagnifier.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter08\ImageMagnifier.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter09\Chart.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter10\Apress.Toolkit.ImageMap.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter10\ImageMap.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter10\ImageMapEditor.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter10\ImageMapEditorForm.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter10\ImageMapEditorForm.resx"
+                    DependentUpon = "ImageMapEditorForm.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter10\ImageMapProperties.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter11\Apress.Toolkit.Average.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter11\Apress.Toolkit.LastReview.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter11\Average.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter11\LastReview.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter11\Reviewer.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter11\ReviewsDB_Data.MDF"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Chapter12\Apress.Toolkit.XmlPollControl.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter12\Apress.Toolkit.XmlPollResult.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter12\VoteEventArgs.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter12\XmlPoll.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter12\XmlPoll.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Chapter12\XmlPoll.xsx"
+                    DependentUpon = "XmlPoll.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Chapter12\XmlPollBase.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter12\XmlPollResult.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter13\Apress.Toolkit.RssFeedListUtility.bmp"
+                    SubType = "Code"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter13\Apress.Toolkit.RssReader.bmp"
+                    SubType = "Code"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter13\RssDataObjects.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter13\RssFeedListUtility.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter13\RssFeedListUtility.resx"
+                    DependentUpon = "RssFeedListUtility.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter13\RssReader.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter13\RssReader.resx"
+                    DependentUpon = "RssReader.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\HtmlMetaTagIndexer.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\IIndexer.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\IndexEntry.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\IndexEntryCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\IndexFileUtility.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\IndexFileUtility.resx"
+                    DependentUpon = "IndexFileUtility.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\SearchIndexer.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Indexer\SearchIndexer.resx"
+                    DependentUpon = "SearchIndexer.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Chapter14\Searcher\Enums.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Searcher\SearchHit.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Searcher\SearchHitCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Chapter14\Searcher\SearchParser.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
